@@ -12,3 +12,7 @@ import '../css/app.scss';
 // import $ from 'jquery';
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+
+const logoPath = require('../images/Logo.jpg');
+
+let html = `<img src="${logoPath}" alt="N2P logo">`;
