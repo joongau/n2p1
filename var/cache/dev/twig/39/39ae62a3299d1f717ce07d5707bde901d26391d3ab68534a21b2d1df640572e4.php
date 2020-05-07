@@ -55,43 +55,16 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         ";
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 9
-        echo "        <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-            <a class=\"navbar-brand\" href=\"#\">Navbar</a>
-            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-                <span class=\"navbar-toggler-icon\"></span>
-            </button>
-
-            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-                <ul class=\"navbar-nav mr-auto\">
-                    <li class=\"nav-item active\">
-                        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">Features</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">Pricing</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">About</a>
-                    </li>
-                </ul>
-                <form class=\"form-inline my-2 my-lg-0\">
-                    <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\">
-                    <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>
-                </form>
-            </div>
-        </nav>
-    </head>
+        // line 7
+        echo "    </head>
     <body>
         ";
-        // line 38
+        // line 9
         $this->displayBlock('body', $context, $blocks);
-        // line 39
+        // line 10
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 40
+        // line 11
         echo "    </body>
 </html>
 ";
@@ -132,9 +105,6 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 7
-        echo "            <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
-        ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -143,7 +113,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 38
+    // line 9
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -161,7 +131,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 39
+    // line 10
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -186,7 +156,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     public function getDebugInfo()
     {
-        return array (  165 => 39,  147 => 38,  136 => 7,  126 => 6,  107 => 5,  95 => 40,  92 => 39,  90 => 38,  59 => 9,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  135 => 10,  117 => 9,  99 => 6,  80 => 5,  68 => 11,  65 => 10,  63 => 9,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -196,36 +166,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}
-            <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
-        {% endblock %}
-        <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-            <a class=\"navbar-brand\" href=\"#\">Navbar</a>
-            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-                <span class=\"navbar-toggler-icon\"></span>
-            </button>
-
-            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-                <ul class=\"navbar-nav mr-auto\">
-                    <li class=\"nav-item active\">
-                        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">Features</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">Pricing</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" href=\"#\">About</a>
-                    </li>
-                </ul>
-                <form class=\"form-inline my-2 my-lg-0\">
-                    <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\">
-                    <button class=\"btn btn-secondary my-2 my-sm-0\" type=\"submit\">Search</button>
-                </form>
-            </div>
-        </nav>
+        {% block stylesheets %}{% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
