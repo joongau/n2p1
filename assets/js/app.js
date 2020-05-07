@@ -13,6 +13,6 @@ import '../css/app.scss';
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
 
-const logoPath = require('../images/Logo.jpg');
+const logoPath = require('../images/logo.png');
 
 let html = `<img src="${logoPath}" alt="N2P logo">`;
