@@ -126,7 +126,22 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
         </div>
     </div>
 
-    
+        <div class=\"carousel slide\" data-ride=\"carousel\">
+            <div class=\"carousel-inner\">
+                <div class=\"carousel-item active\">
+                    <div class=\"row\">
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
 
     <!-- Optional JavaScript -->
@@ -215,7 +230,22 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
         </div>
     </div>
 
-    
+        <div class=\"carousel slide\" data-ride=\"carousel\">
+            <div class=\"carousel-inner\">
+                <div class=\"carousel-item active\">
+                    <div class=\"row\">
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
 
     <!-- Optional JavaScript -->
