@@ -65,7 +65,7 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello MainController!";
+        echo "Accueil | Noob2Pro";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -125,7 +125,7 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Hello MainController!{% endblock %}
+{% block title %}Accueil | Noob2Pro{% endblock %}
 
 {% block body %}
 

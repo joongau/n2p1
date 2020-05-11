@@ -61,44 +61,72 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
         <script src=\"https://kit.fontawesome.com/dc6adfa76a.js\" crossorigin=\"anonymous\"></script>
+    </head>
 
 
 
-        <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
-            <a class=\"navbar-brand\" href=\"";
-        // line 18
+
+
+    <body>
+        <header>
+            <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+                <a class=\"navbar-brand\" href=\"";
+        // line 23
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
         echo "\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/logo.png"), "html", null, true);
         echo "\" alt=\"n2p logo\">Noob2Pro</a>
-            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-                <span class=\"navbar-toggler-icon\"></span>
-            </button>
+                <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                    <span class=\"navbar-toggler-icon\"></span>
+                </button>
 
-            <div class=\"collapse navbar-collapse \" id=\"navbarColor02\" >
-                <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
-                    <button type=\"button\" class=\"btn btn-outline-secondary\">ABOUT</button>
-                    <button type=\"button\" class=\"btn btn-outline-primary\">SIGN UP</button>
-                    <button type=\"button\" class=\"btn btn-outline-primary\">CREATE A PAGE</button>
-                    <button type=\"button\" class=\"btn btn-primary\">SIGN IN</button>
-                </ul>
-                <div>
-                    <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F\"></i>
-                    <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F\"></i>
+                <div class=\"collapse navbar-collapse \" id=\"navbarColor02\" >
+                    <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
+                        <button type=\"button\" class=\"btn btn-outline-secondary\" style=\"margin: 6px\">ABOUT</button>
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">SIGN UP</button>
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">CREATE A PAGE</button>
+                        <button type=\"button\" class=\"btn btn-primary\" style=\"margin: 6px\">SIGN IN</button>
+                    </ul>
+                    <div>
+                        <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                        <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-    </head>
-    <body>
+            </nav>
+        </header>
         ";
-        // line 39
+        // line 42
         $this->displayBlock('body', $context, $blocks);
-        // line 40
+        // line 43
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 41
-        echo "    </body>
+        // line 44
+        echo "        <footer>
+            <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">
+                <div>
+                    <i class=\"fab fa-pinterest-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-instagram-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-youtube-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-discord fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                </div>
+
+                <div style=\"text-align: center\">
+                    <a href=\"#\">Legal Notice</a>
+                    <p>&copy; Noob2Pro 2020</p>
+                </div>
+
+
+                <div>
+                    <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">CONTACT US</button>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    </body>
+
+
+
 </html>
 ";
         
@@ -151,7 +179,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 39
+    // line 42
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -169,7 +197,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 40
+    // line 43
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -199,7 +227,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     public function getDebugInfo()
     {
-        return array (  173 => 40,  155 => 39,  142 => 7,  132 => 6,  113 => 5,  101 => 41,  98 => 40,  96 => 39,  70 => 18,  59 => 9,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  201 => 43,  183 => 42,  170 => 7,  160 => 6,  141 => 5,  104 => 44,  101 => 43,  99 => 42,  75 => 23,  59 => 9,  57 => 6,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -217,34 +245,62 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
         <script src=\"https://kit.fontawesome.com/dc6adfa76a.js\" crossorigin=\"anonymous\"></script>
-
-
-
-        <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
-            <a class=\"navbar-brand\" href=\"{{ path('home') }}\"><img src=\"{{ asset('build/images/logo.png') }}\" alt=\"n2p logo\">Noob2Pro</a>
-            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-                <span class=\"navbar-toggler-icon\"></span>
-            </button>
-
-            <div class=\"collapse navbar-collapse \" id=\"navbarColor02\" >
-                <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
-                    <button type=\"button\" class=\"btn btn-outline-secondary\">ABOUT</button>
-                    <button type=\"button\" class=\"btn btn-outline-primary\">SIGN UP</button>
-                    <button type=\"button\" class=\"btn btn-outline-primary\">CREATE A PAGE</button>
-                    <button type=\"button\" class=\"btn btn-primary\">SIGN IN</button>
-                </ul>
-                <div>
-                    <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F\"></i>
-                    <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F\"></i>
-                </div>
-            </div>
-        </nav>
-
     </head>
+
+
+
+
+
     <body>
+        <header>
+            <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+                <a class=\"navbar-brand\" href=\"{{ path('home') }}\"><img src=\"{{ asset('build/images/logo.png') }}\" alt=\"n2p logo\">Noob2Pro</a>
+                <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+                    <span class=\"navbar-toggler-icon\"></span>
+                </button>
+
+                <div class=\"collapse navbar-collapse \" id=\"navbarColor02\" >
+                    <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
+                        <button type=\"button\" class=\"btn btn-outline-secondary\" style=\"margin: 6px\">ABOUT</button>
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">SIGN UP</button>
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">CREATE A PAGE</button>
+                        <button type=\"button\" class=\"btn btn-primary\" style=\"margin: 6px\">SIGN IN</button>
+                    </ul>
+                    <div>
+                        <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                        <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        <footer>
+            <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">
+                <div>
+                    <i class=\"fab fa-pinterest-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-instagram-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-youtube-square fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                    <i class=\"fab fa-discord fa-4x\" style=\"color: #375A7F; margin: 6px\"></i>
+                </div>
+
+                <div style=\"text-align: center\">
+                    <a href=\"#\">Legal Notice</a>
+                    <p>&copy; Noob2Pro 2020</p>
+                </div>
+
+
+                <div>
+                    <ul class=\"navbar-nav ml-auto\" id=\"navbarButtons\" >
+                        <button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin: 6px\">CONTACT US</button>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
     </body>
+
+
+
 </html>
 ", "base.html.twig", "C:\\STAGE\\n2p1\\templates\\base.html.twig");
     }
