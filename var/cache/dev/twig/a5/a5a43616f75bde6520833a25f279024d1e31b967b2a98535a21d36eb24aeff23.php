@@ -126,16 +126,36 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
         </div>
     </div>
 
+        <br/>
+
         <div class=\"carousel slide\" data-ride=\"carousel\">
-            <div class=\"carousel-inner\">
+            <div class=\"carousel-inner d-flex justify-content-between\">
                 <div class=\"carousel-item active\">
                     <div class=\"row\">
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 53
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/apexlegends.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"Apex Legends\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 54
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/csgo.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"CSGO\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 55
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/lol.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"League of Legends\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 56
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/minecraft.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"Minecraft\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 57
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/r6s.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"Rainbow Six: Siege\"></div>
+                        <div class=\"col-md-2\"><img src=\"";
+        // line 58
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/rl.png"), "html", null, true);
+        echo "\" height=\"150\" alt=\"Rocket League\"></div>
                     </div>
                 </div>
             </div>
@@ -179,7 +199,7 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  157 => 58,  153 => 57,  149 => 56,  145 => 55,  141 => 54,  137 => 53,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -230,16 +250,18 @@ class __TwigTemplate_50e97904b80862d298f0a7beb86eb097ff9bccdf329c374251a61b17e5f
         </div>
     </div>
 
+        <br/>
+
         <div class=\"carousel slide\" data-ride=\"carousel\">
-            <div class=\"carousel-inner\">
+            <div class=\"carousel-inner d-flex justify-content-between\">
                 <div class=\"carousel-item active\">
                     <div class=\"row\">
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
-                        <div class=\"col-2\"><img src=\"..\" alt=\"1 slide\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/apexlegends.png')}}\" height=\"150\" alt=\"Apex Legends\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/csgo.png')}}\" height=\"150\" alt=\"CSGO\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/lol.png')}}\" height=\"150\" alt=\"League of Legends\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/minecraft.png')}}\" height=\"150\" alt=\"Minecraft\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/r6s.png')}}\" height=\"150\" alt=\"Rainbow Six: Siege\"></div>
+                        <div class=\"col-md-2\"><img src=\"{{asset('build/images/rl.png')}}\" height=\"150\" alt=\"Rocket League\"></div>
                     </div>
                 </div>
             </div>
