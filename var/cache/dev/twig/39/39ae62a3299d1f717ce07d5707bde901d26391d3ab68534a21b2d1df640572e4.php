@@ -60,11 +60,13 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         <meta charset=\"utf-8\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
+        <script src=\"https://kit.fontawesome.com/dc6adfa76a.js\" crossorigin=\"anonymous\"></script>
+
 
 
         <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
             <a class=\"navbar-brand\" href=\"";
-        // line 16
+        // line 18
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
         echo "\"><img src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/logo.png"), "html", null, true);
@@ -81,18 +83,8 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
                     <button type=\"button\" class=\"btn btn-primary\">SIGN IN</button>
                 </ul>
                 <div>
-                    <a class=\"navbar-brand\" href=\"";
-        // line 29
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/twitter-logo.png"), "html", null, true);
-        echo "\" alt=\"twitter logo\"></a>
-                    <a class=\"navbar-brand\" href=\"";
-        // line 30
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/images/facebook-logo.png"), "html", null, true);
-        echo "\" alt=\"facebook logo\"></a>
+                    <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F\"></i>
+                    <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F\"></i>
                 </div>
             </div>
         </nav>
@@ -100,12 +92,12 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
     </head>
     <body>
         ";
-        // line 37
+        // line 39
         $this->displayBlock('body', $context, $blocks);
-        // line 38
+        // line 40
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 39
+        // line 41
         echo "    </body>
 </html>
 ";
@@ -159,7 +151,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 37
+    // line 39
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -177,7 +169,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     }
 
-    // line 38
+    // line 40
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -207,7 +199,7 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
 
     public function getDebugInfo()
     {
-        return array (  181 => 38,  163 => 37,  150 => 7,  140 => 6,  121 => 5,  109 => 39,  106 => 38,  104 => 37,  92 => 30,  86 => 29,  68 => 16,  59 => 9,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  173 => 40,  155 => 39,  142 => 7,  132 => 6,  113 => 5,  101 => 41,  98 => 40,  96 => 39,  70 => 18,  59 => 9,  57 => 6,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -223,6 +215,8 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
         <!-- Required meta tags -->
         <meta charset=\"utf-8\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
+
+        <script src=\"https://kit.fontawesome.com/dc6adfa76a.js\" crossorigin=\"anonymous\"></script>
 
 
 
@@ -240,8 +234,8 @@ class __TwigTemplate_95d5571a615e21b3a920d9c82fbaaf42dec0ea46bb8c05915514026b6f4
                     <button type=\"button\" class=\"btn btn-primary\">SIGN IN</button>
                 </ul>
                 <div>
-                    <a class=\"navbar-brand\" href=\"{{ path('home') }}\"><img src=\"{{ asset('build/images/twitter-logo.png') }}\" alt=\"twitter logo\"></a>
-                    <a class=\"navbar-brand\" href=\"{{ path('home') }}\"><img src=\"{{ asset('build/images/facebook-logo.png') }}\" alt=\"facebook logo\"></a>
+                    <i class=\"fab fa-twitter-square fa-4x\" style=\"color: #375A7F\"></i>
+                    <i class=\"fab fa-facebook-square fa-4x\" style=\"color: #375A7F\"></i>
                 </div>
             </div>
         </nav>
