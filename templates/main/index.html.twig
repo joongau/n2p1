@@ -4,22 +4,19 @@
 
 {% block body %}
 
-    <div>
+
 
     <br/>
 
-    <div class="row">
+    <div class="home-welcome">
         <div class="m-auto col-md-9 text-center">
             <h6>SOCIAL NETWORK FOR GAMERS, COSPLAYERS, STREAMERS, BROADCASTERS, TEAMS, AND MORE</h6>
             <h1>SHARE THE BEST OF YOU</h1>
         </div>
 
-        <div class="col-md-3" style="background-color: #2B4764">
+        <div class="home-signup-form col-md-3">
             <form class="d-flex justify-content-center">
-
-
-
-                <div class="col-md-8">
+                <div>
                     <br/>
                     <legend style="text-align: center">JOIN US FOR FREE</legend>
                     <br/>
@@ -46,21 +43,66 @@
 
         <br/>
 
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner d-flex justify-content-between">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-2"><img src="{{asset('build/images/apexlegends.png')}}" height="150" alt="Apex Legends"></div>
-                        <div class="col-md-2"><img src="{{asset('build/images/csgo.png')}}" height="150" alt="CSGO"></div>
-                        <div class="col-md-2"><img src="{{asset('build/images/lol.png')}}" height="150" alt="League of Legends"></div>
-                        <div class="col-md-2"><img src="{{asset('build/images/minecraft.png')}}" height="150" alt="Minecraft"></div>
-                        <div class="col-md-2"><img src="{{asset('build/images/r6s.png')}}" height="150" alt="Rainbow Six: Siege"></div>
-                        <div class="col-md-2"><img src="{{asset('build/images/rl.png')}}" height="150" alt="Rocket League"></div>
+    <div class="container-fluid">
+        <div id="carouselExample" class="carouselPrograms carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-4  active">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 1" class="thumb">
+                                <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div class="carousel-item col-md-4 ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 4" class="thumb">
+                                <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 5" class="thumb">
+                                <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-4 ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 6" class="thumb">
+                                <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 
 
 
@@ -77,5 +119,5 @@
             crossorigin="anonymous"></script>
 
     <br/>
-    </div>
+
 {% endblock %}
