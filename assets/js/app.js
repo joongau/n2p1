@@ -8,7 +8,6 @@
 // any CSS you import will output into a single css file (_bootswatch.scss in this case)
 import '../css/app.scss';
 import "bootswatch/dist/darkly/bootstrap.min.css";
-import "_carousel"
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
