@@ -16,4 +16,15 @@ class MainController extends AbstractController
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/legal_notice", name="legal_notice")
+     */
+    public function legalNotice()
+    {
+        return $this->render('main/legalnotice.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
+
 }
