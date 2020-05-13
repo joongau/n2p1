@@ -1,76 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Hello, world!{% endblock %}</title>
-        {% block stylesheets %}
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Hello, world!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
 
-            {{encore_entry_link_tags('app')}}
+        {{ encore_entry_link_tags('app') }}
 
-        {% endblock %}
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% endblock %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <script src="https://kit.fontawesome.com/dc6adfa76a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dc6adfa76a.js" crossorigin="anonymous"></script>
 
-    </head>
-
-
+</head>
 
 
+<body class="col-md-12">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="font-size: 3em" href="{{ path('home') }}"><img
+                    src="{{ asset('build/images/logo.png') }}" alt="n2p logo">Noob2Pro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <body class="col-md-12">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" style="font-size: 3em" href="{{ path('home') }}"><img src="{{ asset('build/images/logo.png') }}" alt="n2p logo">Noob2Pro</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <div class="collapse navbar-collapse " id="navbarColor02">
+            <ul class="navbar-nav ml-auto" id="navbarButtons">
+                <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em;">SIGN
+                    UP
                 </button>
+                <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em">CREATE A
+                    PAGE
+                </button>
+                <button type="button" class="btn btn-primary btn-lg" style="margin: 6px; width: 9.5em">SIGN IN</button>
+            </ul>
+            <div>
+                <a href="https://twitter.com/">
+                    <i class="fab fa-twitter-square fa-4x" style="color: #375A7F; margin: 6px"></i>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-square fa-4x" style="color: #375A7F; margin: 6px"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
 
-                <div class="collapse navbar-collapse " id="navbarColor02" >
-                    <ul class="navbar-nav ml-auto" id="navbarButtons" >
-                        <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em;">SIGN UP</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em">CREATE A PAGE</button>
-                        <button type="button" class="btn btn-primary btn-lg" style="margin: 6px; width: 9.5em">SIGN IN</button>
-                    </ul>
-                    <div>
-                        <i class="fab fa-twitter-square fa-4x" style="color: #375A7F; margin: 6px"></i>
-                        <i class="fab fa-facebook-square fa-4x" style="color: #375A7F; margin: 6px"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+{% block body %}{% endblock %}
 
-             {% block body %}{% endblock %}
+{% block javascripts %}
+{% endblock %}
+<footer class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+        <div>
+            <a href="https://www.pinterest.fr/">
+                <i class="fab fa-pinterest-square fa-4x" style="color: #375A7F; margin: 6px"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr">
+                <i class="fab fa-instagram-square fa-4x" style="color: #375A7F; margin: 6px"></i>
+            </a>
+            <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube-square fa-4x" style="color: #375A7F; margin: 6px"></i>
+            </a>
+            <a href="http://discord.gg/">
+                <i class="fab fa-discord fa-4x" style="color: #375A7F; margin: 6px"></i>
+            </a>
+        </div>
 
-        {% block javascripts %}
-        {% endblock %}
-        <footer class="position-relative">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
-                <div>
-                    <i class="fab fa-pinterest-square fa-4x" style="color: #375A7F; margin: 6px"></i>
-                    <i class="fab fa-instagram-square fa-4x" style="color: #375A7F; margin: 6px"></i>
-                    <i class="fab fa-youtube-square fa-4x" style="color: #375A7F; margin: 6px"></i>
-                    <i class="fab fa-discord fa-4x" style="color: #375A7F; margin: 6px"></i>
-                </div>
-
-                <div style="text-align: center">
-                    <a href="#">Legal Notice</a>
-                    <p>&copy; Noob2Pro 2020</p>
-                </div>
+        <div style="text-align: center">
+            <a href="#">Legal Notice</a>
+            <p>&copy; Noob2Pro 2020</p>
+        </div>
 
 
-                <div>
-                    <ul class="navbar-nav ml-auto" id="navbarButtons" >
-                        <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px">CONTACT US</button>
-                    </ul>
-                </div>
-            </nav>
-        </footer>
-    </body>
-
+        <div>
+            <ul class="navbar-nav ml-auto" id="navbarButtons">
+                <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px">CONTACT US</button>
+            </ul>
+        </div>
+    </nav>
+</footer>
+</body>
 
 
 </html>
