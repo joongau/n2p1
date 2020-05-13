@@ -5,6 +5,7 @@
         <title>{% block title %}Hello, world!{% endblock %}</title>
         {% block stylesheets %}
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
             {{encore_entry_link_tags('app')}}
 
         {% endblock %}
@@ -23,16 +24,16 @@
     <body class="col-md-12">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="{{ path('home') }}"><img src="{{ asset('build/images/logo.png') }}" alt="n2p logo">Noob2Pro</a>
+                <a class="navbar-brand" style="font-size: 3em" href="{{ path('home') }}"><img src="{{ asset('build/images/logo.png') }}" alt="n2p logo">Noob2Pro</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse " id="navbarColor02" >
                     <ul class="navbar-nav ml-auto" id="navbarButtons" >
-                        <button type="button" class="btn btn-outline-primary" style="margin: 6px">SIGN UP</button>
-                        <button type="button" class="btn btn-outline-primary" style="margin: 6px">CREATE A PAGE</button>
-                        <button type="button" class="btn btn-primary" style="margin: 6px">SIGN IN</button>
+                        <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em">SIGN UP</button>
+                        <button type="button" class="btn btn-outline-primary btn-lg" style="margin: 6px; width: 9.5em">CREATE A PAGE</button>
+                        <button type="button" class="btn btn-primary btn-lg" style="margin: 6px; width: 9.5em">SIGN IN</button>
                     </ul>
                     <div>
                         <i class="fab fa-twitter-square fa-4x" style="color: #375A7F; margin: 6px"></i>
