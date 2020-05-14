@@ -7,14 +7,15 @@
     {% block title %}{% endblock %}
 
 </head>
-
-<body class="col-12">
+<div class="wrapper">
+<body>
 
 {% include 'main/header.html.twig' %}
 
 {% block body %}{% endblock %}
 
 {% include 'main/footer.html.twig' %}
+</div>
 
 {% block javascripts %}
     <!-- Optional JavaScript -->

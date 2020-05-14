@@ -46,4 +46,14 @@ class MainController extends AbstractController
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/newpage", name="newpage")
+     */
+    public function newPage()
+    {
+        return $this->render('page/newpage.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
 }
