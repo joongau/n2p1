@@ -37,15 +37,7 @@ class MainController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/register", name="register")
-     */
-    public function register()
-    {
-        return $this->render('user/register.html.twig', [
-            'controller_name' => 'MainController',
-        ]);
-    }
+
 
     /**
      * @Route("/newpage", name="newpage")
